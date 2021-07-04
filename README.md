@@ -9,15 +9,6 @@ LINK DO CURSO: [Python Pro](https://pythonpro.com.br/)
 [![codecov](https://codecov.io/gh/wartrax13/libpythonpro/branch/main/graph/badge.svg?token=AMG8S9AX1A)](https://codecov.io/gh/wartrax13/curso_django)
 
 
-
-Para instalar:
-
-```
-python 3 -m venv .venv
-source .ven/bin/activate
-pip install -r requirements-dev.txt
-```
-
 Para conferir qualidade do código:
 
 ```flake8```
