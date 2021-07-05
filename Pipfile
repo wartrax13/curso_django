@@ -10,9 +10,11 @@ pytest-cov = "*"
 flake8 = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
+pytest-django = "*"
 
 [dev-packages]
 flake8 = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"
