@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 from functools import partial
-from pathlib import Path
+from pathlib import Path # noqa
 import os
 import dj_database_url
 
