@@ -9,10 +9,12 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-from functools import partial
-from pathlib import Path # noqa
 import os
+from functools import partial
+
+# from pathlib import Path # noqa
 import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'. # noqa
 from decouple import config, Csv
@@ -79,7 +81,7 @@ WSGI_APPLICATION = 'pypro.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases # noqa
 
-default_db_url = 'sqlite3:///' + os.path.join(BASE_DIR, 'db.sqlite3')
+default_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
 parse_database = partial(dj_database_url.parse, conn_max_age=600)
 
