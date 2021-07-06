@@ -5,7 +5,7 @@ python:
 services:
   postgresql
 addons:
-  postgresql: '2.9.1'
+  postgresql: '9.5'
 
 env:
   global:
@@ -19,7 +19,7 @@ install:
 
 before_script:
   - psql -c "CREATE DATABASE testdb;" -U postgres
-  -
+
 script:
   - pipenv run flake8 .
   - pipenv run pytest --cov=pypro

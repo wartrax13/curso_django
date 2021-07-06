@@ -20,7 +20,7 @@ import dj_database_url
 from decouple import config, Csv
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
- #BASE_DIR = Path(__file__).resolve().parent.parent
+#BASE_DIR = Path(__file__).resolve().parent.parent # noqa
 
 
 # Quick-start development settings - unsuitable for production # noqa
@@ -33,8 +33,6 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
-#['django.revistabichosolto.com.br', 'djangopythonpro21.herokuapp.com'] #noqa
-
 
 # Application definitions
 
@@ -86,7 +84,7 @@ default_db_url = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 parse_database = partial(dj_database_url.parse, conn_max_age=600)
 
 DATABASES = {
-    'default': config('DATABASE_URL', default=default_db_url, cast=parse_database)
+    'default': config('DATABASE_URL', default=default_db_url, cast=parse_database) # noqa
 }
 
 
