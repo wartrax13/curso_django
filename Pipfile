@@ -5,14 +5,15 @@ name = "pypi"
 
 [packages]
 django = "*"
-heroku = "*"
 pytest-cov = "*"
 flake8 = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
 python-decouple = "*"
 dj-database-url = "*"
+heroku3 = "*"
 django-s3-folder-storage = "*"
+codecov = "*"
 
 [dev-packages]
 flake8 = "*"
