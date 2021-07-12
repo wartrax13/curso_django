@@ -33,9 +33,12 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
+AUTH_USER_MODEL = 'base.User'
+
 # Application definitions
 
 INSTALLED_APPS = [
+    'pypro.base',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -125,7 +128,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-MEDIA_URL = '/media'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
 COLLECTFAST_ENABLED = False
