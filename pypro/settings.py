@@ -15,6 +15,7 @@ from functools import partial
 # from pathlib import Path # noqa
 import dj_database_url
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'. # noqa
 from decouple import config, Csv
 
@@ -147,8 +148,8 @@ if AWS_ACCESS_KEY_ID:
     AWS_QUERYSTRING_AUTH = True
     AWS_S3_CUSTOM_DOMAIN = None
 
-    COLLECTFAST_ENABLED = True
     COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
+    COLLECTFAST_ENABLED = True
 
     AWS_DEFAULT_ACL = 'private'
 
