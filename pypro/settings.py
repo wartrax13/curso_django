@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
+    'pypro.aperitivos',
 ]
 
 MIDDLEWARE = [
