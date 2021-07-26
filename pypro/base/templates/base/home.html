@@ -13,7 +13,25 @@
                 <h2>
                     Curso de Python com Luciano Ramalho
                 </h2>
-                <h4 class="mt-5">Entra na lista de espera</h4>
+                <h4 class="mt-4">Matrículas abertas! Custo R$ 1000,00</h4>
+                    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                    <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post"
+                          onsubmit="PagSeguroLightbox(this); return false;">
+                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                        <input type="hidden" name="code" value="7A04378D0101CC1224B6DF84017C792B"/>
+                        <input type="hidden" name="iot" value="button"/>
+                        <input type="image"
+                               src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-comprar.gif"
+                               name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!"/>
+                    </form>
+                    <script type="text/javascript"
+                            src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+                    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+
+
+
+                <!--<h4 class="mt-5">Entra na lista de espera</h4>
 
                 <form action="https://gmail.us6.list-manage.com/subscribe/post?u=c65597d9d3d6e7a5f391691fc&amp;id=0928035909"
                       method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
@@ -28,7 +46,7 @@
                             <label class="sr-only" for="mce-FNAME"></label>
                             <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME"
                                    placeholder="Seuu nome">
-                        </div>
+                        </div> -->
 
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
