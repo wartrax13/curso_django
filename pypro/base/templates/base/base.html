@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Python Pro</title>
+    <title>{% block title %}Python Pro{% endblock title %}</title>
 
-    <meta name="description" content="Página do curso PythonPro">
+    <meta name="description" content="{% block description %}Página do curso PythonPro{% endblock description %}">
     <meta name="author" content="Pedro Moises Andrade dos Santos">
     <link rel="icon" type="'image/png" href="{% static 'img/favicon.png' %}"/>
     <link href="{% static  'css/bootstrap.min.css' %}" rel="stylesheet">
@@ -33,78 +33,18 @@
     </div>
 </nav>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
+<!-- MIOLO DA PÁGINA - CORPO -->
+{% block body %}{% endblock body %}
 
-            <div class="jumbotron">
-                <h2>
-                    Curso de Python com Luciano Ramalho
-                </h2>
-                <h4 class="mt-5">Entra na lista de espera</h4>
 
-                <form action="https://gmail.us6.list-manage.com/subscribe/post?u=c65597d9d3d6e7a5f391691fc&amp;id=0928035909"
-                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                      class="form-inline" target="_blank" novalidate>
-                    <div class="row mb-2">
-                        <div class="col-auto">
-                            <label class="sr-only" for="mce=EMAIL"></label>
-                            <input type="email" value="" name="EMAIL" class="form-control required" id="mce-EMAIL" placeholder="exemplo@email.com">
-                        </div>
-                        <div class="col-auto mb-2">
-                            <label class="sr-only" for="mce-FNAME"></label>
-                            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME"
-                                   placeholder="Seuu nome">
-                        </div>
-
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                                  name="b_c65597d9d3d6e7a5f391691fc_0928035909"
-                                                                                                  tabindex="-1"
-                                                                                                  value=""></div>
-
-                        <div class="col mt-auto mb-2 ">
-                            <input type="submit" value="Salvar" name="subscribe"
-                                   id="mc-embedded-subscribe" class="btn btn-primary">
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <h5 class="card-header">
-                        A musica de Miles Davis
-                </h5>
-                <div class="card-body">
-                    <p class="card-text">
-                        <img src="{% static 'img/miles1.png'%}" class="img-thumbnail float-start me-3"
-                                 alt="Miles Davis"/>
-                            Miles Davis pertenceu a uma classe tradicional de trompetistas de jazz,
-                            que começou com Buddy Bolden e desenvolveu-se com Joe "King"Oliver,
-                            Louis Armstrong, Roy Eldridge e Dizzy Gillespie.
-                            Ao contrário desses músicos ele nunca foi considerado com um alto nível de habilidade
-                            técnica.
-                            <a href="https://novatec.com.br/livros/pythonfluente/" target="_blank">Python
-                                Fluente</a>
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<!-- RODAPÉ COMUM EM TODAS AS PÁGINAS -->
 <footer class="main-footer mt-5 pt-4 text-light">
     <div class="container">
         <div class="row">
             <div class="col">
                 <h3>Entre em contato</h3>
                 <address>
-                    +55 19 992601282
+                    +55 19 9 9260-1282
                     <br/>
                     <a href="mailto:pedro.moisesandrade@gmail.com" class="text-light">pedro.moisesandrade@gmail.com</a>
                 </address>
