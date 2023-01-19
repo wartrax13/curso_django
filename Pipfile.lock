@@ -141,10 +141,8 @@
             "version": "==20.1.0"
         },
         "heroku3": {
-            "hashes": [
-                "sha256:59abb0c0f6fbf9ce25ee00fe07ae3ac8dd29a1100bb3ab4589e7bebdcc905c93"
-            ],
-            "version": "==5.1.4"
+            "hashes": [],
+            "version": "==5.2.0"
         },
         "idna": {
             "hashes": [
