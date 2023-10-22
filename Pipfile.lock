@@ -53,7 +53,7 @@
         },
         "charset-normalizer": {
             "hashes": [],
-            "version": "==3.0.1"
+            "version": "==3.3.1"
         },
         "collectfast": {
             "hashes": [
@@ -298,7 +298,7 @@
         },
         "charset-normalizer": {
             "hashes": [],
-            "version": "==3.0.1"
+            "version": "==3.3.1"
         },
         "codecov": {
             "hashes": [
