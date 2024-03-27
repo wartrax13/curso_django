@@ -125,7 +125,7 @@
         },
         "heroku3": {
             "hashes": [],
-            "version": "==5.2.0"
+            "version": "==5.2.1"
         },
         "idna": {
             "hashes": [],
