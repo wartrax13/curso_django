@@ -125,7 +125,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.4"
+            "version": "==3.7"
         },
         "ipython": {
             "hashes": [
@@ -362,7 +362,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.4"
+            "version": "==3.7"
         },
         "iniconfig": {
             "hashes": [],
