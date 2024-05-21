@@ -209,7 +209,7 @@
         },
         "requests": {
             "hashes": [],
-            "version": "==2.31.0"
+            "version": "==2.32.2"
         },
         "s3transfer": {
             "hashes": [
@@ -446,7 +446,7 @@
         },
         "requests": {
             "hashes": [],
-            "version": "==2.31.0"
+            "version": "==2.32.2"
         },
         "sqlparse": {
             "hashes": [],
