@@ -235,7 +235,7 @@
         },
         "sqlparse": {
             "hashes": [],
-            "version": "==0.4.4"
+            "version": "==0.5.1"
         },
         "traitlets": {
             "hashes": [],
@@ -447,7 +447,7 @@
         },
         "sqlparse": {
             "hashes": [],
-            "version": "==0.4.4"
+            "version": "==0.5.1"
         },
         "toml": {
             "hashes": [
