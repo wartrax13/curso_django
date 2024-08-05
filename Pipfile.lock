@@ -355,7 +355,7 @@
         },
         "flake8": {
             "hashes": [],
-            "version": "==5.0.4"
+            "version": "==7.1.1"
         },
         "idna": {
             "hashes": [],
