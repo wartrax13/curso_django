@@ -18,7 +18,7 @@
     "default": {
         "asgiref": {
             "hashes": [],
-            "version": "==3.8.1"
+            "version": "==3.9.1"
         },
         "backcall": {
             "hashes": [
@@ -253,7 +253,7 @@
     "develop": {
         "asgiref": {
             "hashes": [],
-            "version": "==3.8.1"
+            "version": "==3.9.1"
         },
         "atomicwrites": {
             "hashes": [],
