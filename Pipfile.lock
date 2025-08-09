@@ -188,7 +188,7 @@
         },
         "pytz": {
             "hashes": [],
-            "version": "==2024.1"
+            "version": "==2025.2"
         },
         "requests": {
             "hashes": [],
@@ -410,7 +410,7 @@
         },
         "pytz": {
             "hashes": [],
-            "version": "==2024.1"
+            "version": "==2025.2"
         },
         "requests": {
             "hashes": [],
